@@ -11,7 +11,7 @@ public class WorksWithHerokuServlet extends HttpServlet {
         response.setContentType("text/plain");
         response.setStatus(404);
         PrintWriter writer = response.getWriter();
-        writer.print("Hi Ravigowda Welcome to Devops !!!!!! Hurry"); 
+        writer.print("Buddy Works With Heraku"); 
         writer.close();
     }
 }
